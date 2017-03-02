@@ -1,0 +1,24 @@
+{
+  "name": "maxi-electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build-windows": "electron-packager ./src --platform=win32 --out=./dist --overwrite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triploide/electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/triploide/electron/issues"
+  },
+  "homepage": "https://github.com/triploide/electron#readme",
+  "devDependencies": {
+    "electron": "^1.6.1"
+  }
+}

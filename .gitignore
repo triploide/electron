@@ -1,4 +1,4 @@
 /node_modules
 /dist
-.electron-sublime-project
-.electron-sublime-workspace
+electron-sublime-project
+electron-sublime-workspace
